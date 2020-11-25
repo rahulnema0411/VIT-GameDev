@@ -14,7 +14,7 @@ public class bowling : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         
-        if(initialScale > 0.01f) {
+        if(initialScale > 0.05f) {
             initialScale -= 0.001f;
         } else {
             initialScale += 0.001f;
